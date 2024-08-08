@@ -1,5 +1,28 @@
 {
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI tool built with Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olita16/goit-node-cli.git"
+  },
+  "author": "Olena Trzewik",
+  "license": "ISC",
+  "homepage": "https://github.com/olita16/goit-node-cli#readme",
   "dependencies": {
-    "commander": "^12.1.0"
-  }
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "nanoid": "^5.0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/olita16/goit-node-cli/issues"
+  },
+  "keywords": []
+
 }
